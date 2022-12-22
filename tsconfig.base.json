@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@weather-app-micro-frontend/shared/global-scss": [
+        "libs/shared/global-scss/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
